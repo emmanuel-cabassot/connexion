@@ -134,12 +134,13 @@ main{
 .passeh1{
     font-size: 1.9em;
     margin-bottom: 40px;
+    margin-top: 0;
 }
 
 .motdepassewhite{
     background-color: white;
     width: 300px;
-    height: 360px;
+    height: 310px;
     display: flex;
     flex-direction: column;
     justify-content: center;
