@@ -155,3 +155,20 @@ footer{
     border-top: 2px solid  lightgrey;
     align-items: center;
 }
+
+@keyframes encadre{
+    from{
+        transform: translate(0, 400px);
+        opacity: 0;
+}
+     to{
+     transform: translate(0, 0);
+     opacity: 1;
+}
+ }
+
+ 
+ .inscriptionwhite, .white, .motdepassewhite{
+ animation: encadre 3s;
+    animation-fill-mode: both;
+ }
