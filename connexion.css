@@ -118,7 +118,7 @@ main{
 .inscriptionlab{
     display: flex;
     justify-content: center;
-    
+    text-align: center;
     flex-wrap: nowrap;
     width: 90%;
 }
