@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.logo{
+    margin-left: 70px;
+}
+
+.telecharger{
+    margin-right: 80px;
+}
+
+.telecharger a{
+    text-decoration: none;
+    font-size: 1 em;
+    color: white;
+    background-color:  rgb(38, 121, 38);
+    padding: 6px 10px 6px 10px;
+}
+
+.white h1{
+    text-align: center;
+    font-size: 2.1em;
+    color: rgb(38, 121, 38);
+    margin-top: 0;    
+}
+
+h1{
+    text-align: center;
+    font-size: 2.6em;
+    color: rgb(38, 121, 38);
+    margin-top: 0;    
+}
+
+button, input, select{
+    font-size: 85%;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main{
+    font-size: 1.2em;
+    background-color: rgb(38, 121, 38);
+    display: flex;
+    width: 100%;
+    height: 500PX;
+    justify-content: center;
+    align-items: center;
+}
+
+.white{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px 20px 20px 20px ;
+    border-radius: 20px;
+}
+
+.connexion, .creer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.valider{
+    margin: 20px 0 20px 0;
+}
+
+.creer a{
+    text-decoration: none;
+    font-size: 0.9em;
+    color: white;
+    background-color: rgb(38, 121, 38);
+    padding: 10px;
+    margin: 30px 30px 16px 30px
+}
+
+.green{
+    font-size: 1.1em;
+    background-color: rgb(38, 121, 38);
+    display: flex;
+    width: 100%;
+    height: 1100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inscriptionwhite{
+    background-color: white;
+    width: 600px;
+    height: 920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 20px 20px ;
+    margin:50px 0 50px 0;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.inscriptionlab{
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: nowrap;
+    width: 90%;
+}
+
+.inscriptionlab div{
+    width: 60;   
+}
+
+.inscriptionlab label{
+    vertical-align: super;
+}
+
+.passeh1{
+    font-size: 1.9em;
+    margin-bottom: 40px;
+}
+
+.motdepassewhite{
+    background-color: white;
+    width: 300px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px 20px 20px 20px ;
+    text-align: center;
+    border-radius: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid  lightgrey;
+    align-items: center;
+}
