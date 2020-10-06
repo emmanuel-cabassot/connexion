@@ -104,8 +104,8 @@ main{
 
 .inscriptionwhite{
     background-color: white;
-    width: 600px;
-    height: 920px;
+    width: 480px;
+    height: 940px;
     display: flex;
     justify-content: center;
     align-items: center;
